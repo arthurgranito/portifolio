@@ -27,7 +27,7 @@ export const PROJECTS = [
     linkDeploy: "https://copokent.vercel.app",
     linkGithub: "https://github.com/arthurgranito/copokent.git",
     description:
-      "Um site de delivery de bebidas totalmente funcional e ativo na cidade de Teresópolis. Com recursos como lista de produtos, carrinho de compras e redirecionamento para o whatsapp da empresa para finalização do pedido.",
+      "A fully functional and active drinks delivery website in the city of Teresópolis. With features such as product list, shopping cart and redirection to the company's WhatsApp to complete the order.",
     technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
   },
   {
