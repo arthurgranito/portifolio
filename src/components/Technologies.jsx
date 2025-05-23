@@ -97,7 +97,7 @@ const Technologies = () => {
                 </motion.div>
 
                 <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiMongodb className='text-7xl text-purple-800' />
+                    <DiMongodb className='text-7xl text-green-500' />
                 </motion.div>
             </motion.div>
         </div>
