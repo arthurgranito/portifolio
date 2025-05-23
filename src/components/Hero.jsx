@@ -1,6 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/arthurGranitoProfile2.jpg';
+import profilePic from '../assets/arthurGranitoProfile1.jpg';
 import { motion } from 'framer-motion';
 
 const container = (delay) => ({
@@ -24,7 +24,7 @@ const Hero = () => {
 
                         <motion.span variants={container(0.5)}
                         initial="hidden"
-                        animate="visible"  className='bg-gradient-to-r from-white via-gray-500 to-white bg-clip-text text-3xl tracking-tight text-transparent'>Programador FrontEnd</motion.span>
+                        animate="visible"  className='bg-gradient-to-r from-white via-gray-500 to-white bg-clip-text text-3xl tracking-tight text-transparent'>Full Stack developer</motion.span>
 
                         <motion.p variants={container(1)}
                         initial="hidden"

@@ -20,9 +20,6 @@ const Navbar = () => {
         <a href="https://www.instagram.com/arthurgranito_/" target='_blank'>
           <FaInstagram />
         </a>
-        <a href="https://x.com/arthur_granit" target='_blank'>
-          <FaSquareXTwitter />
-        </a>
       </div>
     </nav>
   )

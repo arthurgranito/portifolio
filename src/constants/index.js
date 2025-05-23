@@ -6,71 +6,86 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
 
-export const HERO_CONTENT = `Sou um desenvolvedor front end apaixonado, com talento para criar aplicações web robustas e escaláveis. Com formação no curso técnico profissionalizante da Tech4me, aprimorei minhas habilidades em tecnologias front-end como HTML5, CSS3, Bootstrap, TailwindCSS, JavaScript, React, Git e Github. Meu objetivo é aproveitar minha experiência para criar soluções inovadoras que impulsionem o crescimento dos negócios e proporcionem experiências excepcionais ao usuário.`;
+export const HERO_CONTENT = `Hi there! I'm a Full Stack Developer passionate about turning ideas into efficient digital solutions.
+On the frontend, I work with modern technologies like React, JavaScript, HTML, CSS, Tailwind CSS, Bootstrap, shadcn/ui, and Framer Motion, crafting responsive, accessible, and user-friendly interfaces.
+On the backend, I use Java with Spring Boot, JPA, Hibernate, H2, MySQL, and PostgreSQL to build robust and scalable RESTful APIs, always focusing on performance and clean architecture.
+I'm also experienced with DevOps tools and practices such as Docker, Git, GitHub, and CI/CD, ensuring fast and reliable deployments.
+Additionally, I have solid knowledge of C# and .NET, which adds to my versatility across different tech stacks.`;
 
-export const ABOUT_TEXT = `Sou um desenvolvedor front end dedicado e versátil, apaixonado por criar aplicações web eficientes e fáceis de usar. Me especializei em tecnologias diversas incluindo HTML5, CSS3, Bootstrap, TailwindCSS, JavaScript, React, Git e Github. Minha jornada no desenvolvimento web começou com uma profunda curiosidade sobre como as coisas funcionam e evoluiu para uma carreira onde me esforço continuamente para aprender e me adaptar a novos desafios. Eu prospero em ambientes colaborativos e gosto de resolver problemas complexos para entregar soluções de alta qualidade. Fora da programação, gosto de permanecer ativo, explorar novas tecnologias e contribuir para projetos de código aberto.`;
+export const ABOUT_TEXT_1 = `I'm a dedicated and versatile Full Stack Developer, passionate about building efficient and user-friendly web applications. I specialize in a wide range of technologies including HTML5, CSS3, JavaScript, React, Tailwind CSS, Bootstrap, shadcn/ui, and Framer Motion on the frontend.`;
+
+export const ABOUT_TEXT_2 = `On the backend, I work with Java, Spring Boot, JPA, Hibernate, H2, MySQL, and PostgreSQL, building robust RESTful APIs and scalable systems. I also have hands-on experience with DevOps tools such as Docker, Git, GitHub, and CI/CD pipelines to ensure seamless integration and deployment workflows. In addition, I have solid knowledge of C# and .NET, expanding my flexibility across different tech stacks.`;
+
+export const ABOUT_TEXT_3 = `My journey in development started with a deep curiosity about how things work, and has evolved into a career where I constantly strive to learn, grow, and tackle new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`;
+
+export const ABOUT_TEXT_4 = `Outside of coding, I enjoy staying active, exploring emerging technologies, and contributing to open-source projects.`
 
 export const PROJECTS = [
   {
-    title: "Copokent - Delivery de Bebidas",
+    title: "Copokent - Drink Delivery",
     image: project1,
-    link: "https://copokent.vercel.app",
+    linkDeploy: "https://copokent.vercel.app",
+    linkGithub: "https://github.com/arthurgranito/copokent.git",
     description:
       "Um site de delivery de bebidas totalmente funcional e ativo na cidade de Teresópolis. Com recursos como lista de produtos, carrinho de compras e redirecionamento para o whatsapp da empresa para finalização do pedido.",
     technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
   },
   {
-    title: "App de para gerenciar uma lista de taferas",
+    title: "To do list API",
     image: project2,
-    link: "https://listatarefas-sepia.vercel.app",
+    linkGithub: "https://github.com/arthurgranito/todo-listAPI.git",
     description:
-      "Um aplicativo para gerenciamento de tarefas e projetos, com recursos como criação de tarefas, opção de completar e de deletar a tarefa e o uso do LocalStorage para as informações ficarem salvas no dispositivo do usuário",
-    technologies: ["HTML", "CSS", "Javascript"],
+      "A restFul API that manages tasks, having endpoints and methods to register a task, edit it, delete it and complete it. with full CRUD.",
+    technologies: ["Java", "SpringBoot", "JPA and Hibernate", "PostgreSQL"],
   },
   {
-    title: "Site de Filmes e Séries",
+    title: "CineVerse - Film and Series Website",
     image: project3,
-    link: "https://arthurflix-nine.vercel.app",
+    linkDeploy: "https://cineverse-zeta.vercel.app",
+    linkGithub: "https://github.com/arthurgranito/cine-verse.git",
     description:
-      "Um site que consome uma API externa onde é possível pesquisar por filmes ou séries e acessar seus detalhes como descrição, tempo de duração, ano de lanaçamento e muito mais.",
-    technologies: ["HTML", "CSS", "React"],
+      "A website that consumes an external API where it is possible to search for films or series and access their details, such as description, running time, release year and much more.",
+    technologies: ["Vue.js", "CSS", "JavaScript"],
   },
   {
-    title: "App de Notas",
+    title: "Complete API Product x Customer",
     image: project4,
-    link: "https://arthurnotes.vercel.app",
+    linkGithub: "https://github.com/arthurgranito/project-springboot-jpa-hibernate.git",
     description:
-      "Uma aplicação de notas, onde é possível criar notas, editá-las, fixá-las e muito mais. Uso do LocalStorage para que as informações fiquem salvas no dispositivo do usuário.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "An API that uses different P.O.O concepts, OneToMany, ManyToMany, ManyToOne relationships. Furthermore, use of JPA, Hibernate, Spring boot and other technologies",
+    technologies: ["Java", "SpringBoot", "JPA and Hibernate", "MySQL"],
   },
   {
-    title: "App de editor de texto",
+    title: "Gestor Pro",
     image: project5,
-    link: "https://editor-texto-ten.vercel.app",
+    linkDeploy: "https://gestorpro-kappa.vercel.app",
+    linkGithub: "https://github.com/arthurgranito/gestor-pro-gestao-financeira.git",
     description:
-      "Uma aplicação de edição de texto, onde é possível digitar um texto com diferentes cores, fontes e tamanhos.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "A full stack application using Firebase, where a company is managed, controlling its expenses, revenues and employee data",
+    technologies: ["React", "Shadcn/ui", "JavaScript", "Firebase", "Chart.js"],
   },
   {
-    title: "App de previsão do tempo",
+    title: "Weather Forecast",
     image: project6,
-    link: "https://previsao-tempo-khaki.vercel.app",
+    linkDeploy: "https://previsao-tempo-khaki.vercel.app",
+    linkGithub: "https://github.com/arthurgranito/previsao-tempo.git",
     description:
-      "Uma aplicação de previsão do tempo onde o usuário digita a cidade desejada e é exibido na tela diversas informações sobre o tempo na região determinada. A exibição das informações é feita a partir de uma API externa.",
+      "a website that uses an external weather forecast API, where the user searches for a city and the website returns weather forecast information for that location in real time",
     technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Gerador de QR Code",
+    title: "QR Code Generator",
     image: project7,
-    link: "https://arthurqrcode.vercel.app",
+    linkDeploy: "https://arthurqrcode.vercel.app",
+    linkGithub: "https://github.com/arthurgranito/gerador-qr-code.git",
     description:
-      "Uma aplicação que gera QR Codes a partir de links ou textos. A aplicação possui a opção de baixar a imagem do QR Code, assim como permite editar o tamanho da imagem.",
+      "An application that generates QR Codes from links or texts. The application has the option to download the QR Code image, as well as allowing you to edit the image size.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
 export const CONTACT = {
-  address: "Teresópolis, Rio de Janeiro - Brasil",
-  phoneNo: "+55 ( 21 ) 97631-8326",
-  email: "arthurgranito01@gmail.com",
+  address: "Teresópolis, Rio de Janeiro - Brazil",
+  phoneNo: "+55 (21) 97631-8326",
+  email: "arthurgranitodev@gmail.com",
 };
