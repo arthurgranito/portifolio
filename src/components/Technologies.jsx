@@ -9,7 +9,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { motion } from 'framer-motion'
 import { SiFramer, SiPostman, SiSpring } from 'react-icons/si';
-import { DiMysql } from 'react-icons/di';
+import { DiMongodb, DiMysql } from 'react-icons/di';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { TbBrandCSharp } from 'react-icons/tb';
 import { AiOutlineDotNet } from 'react-icons/ai';
@@ -94,6 +94,10 @@ const Technologies = () => {
                 
                 <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                     <AiOutlineDotNet className='text-7xl text-purple-800' />
+                </motion.div>
+
+                <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiMongodb className='text-7xl text-purple-800' />
                 </motion.div>
             </motion.div>
         </div>
